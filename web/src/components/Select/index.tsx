@@ -1,6 +1,5 @@
 import React, {SelectHTMLAttributes} from 'react';
 import './style.css'
-import { formatWithOptions } from 'util';
 
 interface SelectProps extends SelectHTMLAttributes<HTMLSelectElement>{
     name : string;
